@@ -1,0 +1,6 @@
+version: v1
+plugins:
+  - name: go
+    out: ./gen/go  # Direct output to 'gen/go' at the root level
+  - name: connect-go
+    out: ./gen/go  # Same as above
